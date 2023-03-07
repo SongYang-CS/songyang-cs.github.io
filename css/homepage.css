@@ -1,0 +1,259 @@
+.topmenu {
+  width: 100%;
+  height: 45px;
+  /* background: #545958; */
+  position: fixed;
+  top: 0;
+}
+.ul_nav {
+  list-style-type: none;
+  /* margin-left: 20px; */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.li_nav {
+  margin-left: 40px;
+  float: left;
+}
+.li_nav_a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  font-variant: small-caps;
+  font-size: 22px;
+}
+.li_nav_a:hover {
+  background-color: #111;
+}
+.namecard {
+  /* position: absolute; */
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 90%;
+  height: 400px;
+  background: #fafafa;
+}
+.mypic {
+  float: left;
+  width: 300px;
+  height: 380px;
+  background-image: url("../image/Song Yang.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+.bit_logo {
+  float: right;
+  position: absolute;
+  width: 220px;
+  height: 90px;
+    margin-top: 260px;
+    margin-left: 260px;
+  background-image: url("../image/bit_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+.contact {
+  float: left;
+  /* position: absolute; */
+  /* left: 400px; */
+  margin-top: 70px;
+  margin-right: 10px;
+  /* width: 450px; */
+  /* height: 400px; */
+  /* background:#304EAF; */
+}
+.name {
+  margin-top: 0px;
+  font-size: 42px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  /* position:relative; */
+  float: left;
+  top: 30px;
+}
+.title {
+  /* position: absolute; */
+  /* top: 90px; */
+  margin-top: 50px;
+  /* margin-left: 0px; */
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  /* font-weight: bold; */
+  font-size: 23px;
+  color: black;
+}
+.myinfo {
+  /* position: absolute; */
+  /* top: 40%; */
+  margin-top: 20px;
+  width: 450px;
+  color: #017785;
+  font-size: 23px;
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  line-height: 10px;
+}
+.contentframe {
+  margin-top: 10px;
+  width: 100%;
+  /* height: 1000px; */
+  /* background: #9EEEBD; */
+}
+.content {
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  margin-top: 10px;
+  /* height: 1000px; */
+  width: 85%;
+  margin: 0 auto;
+  /* background: #F80408; */
+  line-height: 20px;
+  /* padding: 30px; */
+}
+.bottomenu {
+  width: 100%;
+  height: 80px;
+  background: #333333;
+}
+.interest {
+  font-size: 20px;
+  line-height:150%;
+  margin-right: 40px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.paper {
+  margin-bottom: 10px;
+}
+.paperinf {
+  font-weight: 800;
+  font-display: block;
+}
+.myname {
+  color: brown;
+  font-weight: 800;
+  /* font-style: italic; */
+  /* font-display: block; */
+}
+.paperlist {
+  /* display:inline; */
+  /* list-style-position:inside; */
+  /* margin: 10px; padding: 10px; list-style-type:none; */
+  /* text-align-last:justify; */
+  line-height:150%;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+   /* 这行必加, 兼容ie浏览器  */
+  /* margin-left: 40px; */
+  margin-right: 40px;
+  /* text-align:center; */
+  font-size: 18px;
+}
+.distingishpaper {
+  font-display: block;
+  color: brown;
+}
+.fundlist {
+  /* display:inline; */
+  /* list-style-position:inside; */
+  /* margin: 10px; padding: 10px; list-style-type:none; */
+  font-size: 20px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  /* text-align-last:justify; */
+  text-align: justify;
+  text-justify: distribute-all-lines;
+   /* 这行必加, 兼容ie浏览器  */
+  /* margin-left: 40px; */
+  margin-right: 40px;
+  /* text-align:center; */
+  /* line-height: 30px; */
+  /* font-display: block; */
+}
+.TeachingNode {
+  margin-top: 10px;
+    /* font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; */
+    font-display: block;
+    color: blue;
+    font-size: 20px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.Awards {
+  margin-top: 8px;
+    /* font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; */
+    /* color:brown; */
+    font-display: block;
+    font-size: 20px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.TeachingLevel {
+  font-size: 20px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.ResearchingAward {
+  margin-top: 8px;
+    /* font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; */
+    color:brown;
+    font-display: block;
+}
+.funds_node{
+    margin-top: 10px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-display: block;
+}
+.level {
+  color:red;
+}
+.sub_title {
+  text-indent: 0.5em;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.bio {
+  text-indent: 1em;
+  line-height:150%;
+  /* display:inline; */
+  /* list-style-position:inside; */
+  /* margin: 10px; padding: 10px; list-style-type:none; */
+  /* text-align-last:justify; */
+  font-size: 20px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  text-align: justify;
+  text-justify: distribute-all-lines;
+   /* 这行必加, 兼容ie浏览器  */
+  /* margin-left: 40px; */
+  margin-right: 40px;
+  /* text-align:center; */
+}
+.block_style {
+  margin-top: 50px;
+  margin-right: 40px;
+}
+.funds_state_on {
+  color: red;
+}
+.funds_state_c {
+  color: blue;
+}
+.bit_link {
+  color: #017785;
+  text-decoration: none;
+}
+.note{
+  font-size: 20px;
+  line-height:150%;
+  margin-top: 10px;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-display: block;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.note_text {
+  text-indent: 1em;
+  margin-right: 40px;
+}
